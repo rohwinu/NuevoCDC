@@ -1,0 +1,25 @@
+
+#pagina1{
+  background: url(../img/Index/background_v2.jpg);
+  background-repeat:no-repeat;
+  /*background-position:center center;*/
+  background-size:cover;
+  background-attachment: fixed;  
+
+}
+#servicios, #ubicacion, #nosotros, #pruebas {
+  background: url(../img/General/background.jpg);
+  background-repeat:no-repeat;
+  /*background-position:center center; */
+   background-attachment: fixed;
+  background-size:cover; 
+
+}
+/*
+#listaexamenes, #page777777, #buscador {
+	 background: url(../img/background_v3.jpg);
+	background-repeat:no-repeat;
+ 	 background-position:center center;
+ 	 background-size:cover;  
+	}
+*/
