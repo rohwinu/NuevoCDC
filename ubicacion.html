@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="GatoLoco-FussionCreativa" />
+
+	<title>Sin título 1</title>
+</head>
+
+<body>
+    <div data-role="page" data-theme="b" id="ubicacion">
+        <!--         cabecera                 -->
+        <div data-role="header">
+            <h1>Esto es la cabecera de la pagina 2</h1>
+        </div>
+        <!--         contenido                 -->
+        <div data-role="content">
+            <span id="lat" style="color: white;"></span><br />
+            <div id="mapa">
+            
+            </div>
+            <a data-ajax="false" href="tel:18005551234" id="cell" data-icon="custom" data-theme="b" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true" class="ui-btn ui-btn-inline ui-btn-icon-top ui-btn-up-b"><span class="ui-btn-inner"><span class="ui-btn-text">Call Us</span><span class="ui-icon ui-icon-custom ui-icon-shadow">&nbsp;</span></span></a>
+            <li class="ui-block-b"><a href="mailto:email@somewhere.com" class="iconsub-white-Envelope ui-btn ui-btn-icon-top ui-btn-up-a" data-icon="custom" data-theme="a"><span class="ui-btn-inner"><span class="ui-btn-text">Email</span><span class="ui-icon ui-icon-custom ui-icon-shadow"></span></span></a></li>
+            <div>
+                <a href="#popupParis" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/Ubicacion/thumb/001.jpg" alt="Paris, France" style="width:30%"></a>
+                <a href="#popupSydney" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/Ubicacion/thumb/002.jpg" alt="Sydney, Australia" style="width:30%"></a>
+                <a href="#popupNYC" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/Ubicacion/thumb/003.jpg" alt="New York, USA" style="width:30%"></a>
+                <div data-role="popup" id="popupParis" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/Ubicacion/full/001.jpg" style="max-height:512px;" alt="Paris, France">
+                </div>
+                <div data-role="popup" id="popupSydney" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/Ubicacion/full/002.jpg" style="max-height:512px;" alt="Sydney, Australia">
+                </div>
+                <div data-role="popup" id="popupNYC" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/Ubicacion/full/003.jpg" style="max-height:512px;" alt="New York, USA">
+                </div>
+            </div>
+        </div>
+        <!--         pie de pagina                 -->
+        <div data-role="footer" data-position="fixed">
+            <a href="servicios.html"><img src="img/Footer/servicios.png"/></a>
+            <a href="nosotros.html"><img src="img/Footer/nosotros.png"/></a>
+            <a href="pruebas.html"><img src="img/Footer/pruebas.png"/></a>
+            <a href="index.html"><img src="img/Footer/inicio.png"/></a>
+        </div>
+    </div>
+</body>
+</html>

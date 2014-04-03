@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="GatoLoco-FussionCreativa" />
+
+	<title>Sin título 1</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.2.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.2.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.2.js"></script>
+    
+</head>
+
+<body>
+    <div data-role="page" data-theme="b" id="pagina1">
+        <!--cabecera-->
+        <div data-role="header">
+            <h1>Esto es una cabecera</h1>
+        </div>
+        <!--contenido-->
+        <div data-role="content">
+            <span id="Logo" class="svg">
+                <img src="img/Index/circle.svg" width="306" style="margin-left: 15%;">
+                <div class="ui-block-b" style="margin-top: -250px; margin-left:25%; z-index:10; position:absolute; text-transform:none">
+                    <label for="basic" >Usuario</label>
+                        <input type="text" name="usuario" id="usuario" value=""  required/>
+                    <label for="basic">Clave</label>
+                        <input type="password" name="contrasena" id="contrasena" value=""  required/>
+                    <a href="#ingreso" class="ui-link ui-btn ui-btn-active" onclick="ingresar();">Ingresar</a>
+                    <h4 class="sol_clave" style="text-transform:none">Aún no tienes tu clave? <br /> Solicítala aquí</h4>
+                </div>
+            </span>
+        </div>
+        <!--pie de pagina-->
+        <div data-role="footer" data-position="fixed">
+            <a href="servicios.html"><img src="img/Footer/servicios.png"/></a>
+            <a href="nosotros.html"><img src="img/Footer/nosotros.png"/></a>
+            <a href="pruebas.html"><img src="img/Footer/pruebas.png"/></a>
+            <a href="ubicacion.html"><img src="img/Footer/ubicacion.png"/></a>
+        </div>
+    </div>
+    
+    <div data-role="page" data-theme="b" id="ingreso">
+        <div data-role="header">
+        </div>
+        <div data-role="content">
+            <div id="result1" >
+            </div>  
+        </div>
+        <div data-role="footer" data-position="fixed" data-fullscreen="true">
+            <div class="botonera" data-role="navbar">
+                <ul>
+                    <li><a href="#pagina1" data-role="button" data-transition="pop" data-theme="b"><img src="img/Index/inicioPPAL.svg" height="50px" alt="" style="text-align:left"/></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
