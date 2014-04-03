@@ -3,7 +3,7 @@
 	<meta http-equiv="content-type" content="text/html" />
 	<meta name="author" content="GatoLoco-FussionCreativa" />
     
-	<title>Sin título 1</title>
+	<title>Sin tÃ­tulo 1</title>
     
     <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.2.css"/>
     <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.4.2.css"/>
@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.4.2.css"/>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.mobile-1.4.2.js"></script>
-    
+    <script type="text/javascript" src="js/validacion.js"></script>
 </head>
 
 <body>
@@ -32,18 +32,18 @@
                     <label for="basic">Clave</label>
                         <input type="password" name="contrasena" id="contrasena" value=""  required/>
                     <a href="#ingreso" class="ui-link ui-btn ui-btn-active" onclick="ingresar();">Ingresar</a>
-                    <h4 class="sol_clave" style="text-transform:none">Aún no tienes tu clave? <br /> Solicítala aquí</h4>
+                    <h4 class="sol_clave" style="text-transform:none">AÃºn no tienes tu clave? <br /> SolicÃ­tala aquÃ­</h4>
                 </div>
             </span>
         </div>
         <!--pie de pagina-->
-        <div data-role="footer" data-position="fixed">
+        <div data-role="footer" data-position="fixed" data-fullscreen="true">
             <div class="botonera" data-role="navbar">
                 <ul>
-                    <li><a href="servicios.html" data-transition="fade"><img src="img/Footer/servicios.png" width="112" height="122"/></a></li>
-                    <li><a href="nosotros.html" data-transition="slideup"><img src="img/Footer/nosotros.png" width="112" height="122"/></a></li>
+                    <li><a href="servicios.html" data-transition="slide"><img src="img/Footer/servicios.png" width="112" height="122"/></a></li>
+                    <li><a href="nosotros.html" data-transition="slide"><img src="img/Footer/nosotros.png" width="112" height="122"/></a></li>
                     <li><a href="pruebas.html" data-transition="slide"><img src="img/Footer/pruebas.png" width="112" height="122"/></a></li>
-                    <li><a href="ubicacion.html" data-transition="flip"><img src="img/Footer/ubicacion.png" width="112" height="122"/></a></li>
+                    <li><a href="ubicacion.html" data-transition="slide"><img src="img/Footer/ubicacion.png" width="112" height="122"/></a></li>
                 </ul>
             </div>
         </div>
@@ -60,6 +60,59 @@
             <div class="botonera" data-role="navbar">
                 <ul>
                     <li><a href="#pagina1" data-role="button" data-transition="pop" data-theme="b"><img src="img/Index/inicioPPAL.svg" height="50px" alt="" style="text-align:left"/></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div data-role="page" id="buscador">
+        <div data-role="header">
+            
+        </div>
+        <div data-role="content">
+            
+            <p>
+                
+                <div id="resultadobusqueda">
+                
+                </div>                          
+            </p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+        
+        <div class="botonera" data-role="navbar">
+                <ul>
+                    <li><a href="#pagina1" data-role="button" data-transition="pop" data-theme="b" data-ajax="false"><img src="img/Index/inicioPPAL.svg" height="50px" alt="" style="text-align:left"/></a></li>
+                </ul>
+            </div>
+       
+        </div>
+    </div>
+    
+    <div data-role="page" id="listaexamenes">
+        <div data-role="header">
+        
+        <div class="ficha_paciente">
+        	<p>Bienvenido <br/>
+        	<strong>Nombre de la entidad </strong><br/>
+        	Nit: 000000xxxx</p>
+            
+          <img src="img/Index/paciente.svg" height="105px" alt="" style="display:block; margin:0 auto"/> </div>
+            
+        </div>
+        <div data-role="content">
+            
+            <p>
+                <div class="contenedor" id="resultadolistaexamenes">
+                
+                </div>                         
+            </p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div class="botonera" data-role="navbar">
+                <ul>
+                    <li><a data-role="button" href="#buscador" data-ajax="false"><img src="img/Index/busca_ava.svg" height="50px" alt=""/></a></li>
+                    <li><a href="#pagina1" data-role="button" data-transition="pop" data-theme="b" data-ajax="false"><img src="img/Index/inicioPPAL.svg" height="50px" alt="" style="text-align:left"/></a></li>
                 </ul>
             </div>
         </div>
