@@ -1,0 +1,233 @@
+body {
+margin: 0;
+font-size:16px;
+color: #000000;
+font-family:Arial, Helvetica, sans-serif;
+background-color:#1E3B67 !important;
+
+}
+#sliderWrap {
+margin: 0 auto;
+width: 300px;
+}
+#slider {
+
+top:475px;
+position: relative;
+background-image:url(../img/slider.png);
+background-repeat:no-repeat;
+background-position: bottom;
+width: 300px;
+height: 159px;
+margin-top: -141px;
+}
+#slider img {
+border: 0;
+}
+#sliderContent {
+margin: 50px 0 0 50px;
+position: absolute;
+text-align:center;
+background-color:#FFFFCC;
+color:#333333;
+font-weight:bold;
+padding: 10px;
+}
+#header {
+margin: 0 auto;
+width: 600px;
+background-color: #F0F0F0;
+height: 200px;
+padding: 10px;
+}
+#openCloseWrap {
+	position: absolute;
+	margin: 143px 0 0 120px;
+	font-size: 12px;
+	font-weight: bold;
+	left: -8px;
+	top: -174px;
+}
+
+.cont_form {
+	width:237px;
+	height:auto;
+	margin: 0 auto;
+	text-align:center;
+	}
+
+.div-widget1 {
+	  height: 270px;
+    margin-top: -282px;
+    width: 236px;
+	}
+
+
+
+/*.contenedor{
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    background-color: red;
+	background-image:url(../img/background.jpg);
+}*/
+
+.fomulario_ingreso {
+	position:absolute;
+	margin:88px 50px;
+	z-index:1;
+	}
+.logo {
+	position:absolute;
+	margin: 1px 88px;
+	z-index:2;
+	}
+	
+.ui-br {
+	border-bottom: 0 !important;
+		}
+
+
+#page1{
+  background: url(../img/background_v2.jpg);
+  background-repeat:no-repeat;
+  /*background-position:center center;*/
+  background-size:cover;
+  background-attachment: fixed;  
+
+}
+#servicios, #ubicacion, #nosotros {
+  background: url(../img/background.jpg);
+  background-repeat:no-repeat;
+  /*background-position:center center; */
+   background-attachment: fixed;
+  background-size:cover; 
+
+}
+
+#listaexamenes, #page777777, #buscador {
+	 background: url(../img/background_v3.jpg);
+	background-repeat:no-repeat;
+ 	 background-position:center center;
+ 	 background-size:cover;  
+	}
+
+.ui-btn-text {
+	font-size:18px;
+	}
+
+
+
+/*elimino barra superior*/
+.ui-bar-a {
+	background:none !important;
+	border:none !important;
+	}
+	
+.sol_clave {
+	display: block;
+	margin: 0 auto;
+	text-shadow:none;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:normal;
+	}
+
+
+#img {
+position: absolute;
+max-width: 100%;
+width: auto\9;
+
+}
+
+
+.home-content {
+position: absolute;
+z-index: 2;
+top: 40%;
+left: 25%;
+display: inline-block;
+text-align: center;
+width: 50%;
+margin: -38px;
+}
+
+#Logo {
+display: inline-block;
+padding-top: 15px;
+}
+
+#centrar {
+	position:absolute;
+	z-index: 5;
+	display: inline-block;
+text-align: center;
+width: 50%;
+margin: -38px;
+	}
+
+	
+.ui-field-contain {
+	z-index:2;
+	position:relative;
+	width:100%;
+	}
+
+
+	
+.botonera .ui-btn-inner{
+		padding:0 !important;
+	}	
+
+/*para roderar texto con imagen*/
+
+.align-left {
+float: left;
+margin: 5px 15px 0 0;
+/*fin*/
+
+}
+/* estilos para resultados busqueda*/
+
+.ui-btn { 
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 33%, #207cca 60%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(33%,#2989d8), color-stop(60%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 33%,#207cca 60%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #1e5799 0%,#2989d8 33%,#207cca 60%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #1e5799 0%,#2989d8 33%,#207cca 60%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(to bottom, #1e5799 0%,#2989d8 33%,#207cca 60%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+padding: 6px;
+
+ }
+
+.ui-btn-inner {
+	border-top: none; 
+	}
+
+
+/*Ficha paciente en resultados */
+
+.ficha_paciente h1, p{
+	text-align:center;
+	text-transform:none;
+	
+	}
+
+
+
+@media only screen and (max-width: 400px) {
+  #images2 {
+    background: none !important;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;  
+	background-color:red;
+	width: 0;
+	height: 0;
+}
+                }
+
