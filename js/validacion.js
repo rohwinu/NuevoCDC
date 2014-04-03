@@ -74,6 +74,21 @@ function buscar(nit)
         {
             $("#resultBusq").html(response);
         }
-    })
-    
+    })   
+}
+
+function listaDeExamenes(paciente,nit)
+{
+    $.ajax({
+            type:"GET",
+            url:"http://cdc.gatolocostudios.com/VersionMobile/Librerias/funciones.php?accion=listaDeExamenes"
+            +"&paciente="+paciente
+            +"&nit="+nit,
+            dataType:"text",
+            data:$(this).serialize(),
+            success:function(response)
+            {
+                $("#resultadolistaexamenes").html(response);
+            }
+        })
 }
