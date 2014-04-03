@@ -88,16 +88,16 @@ padding: 10px;
 		}
 
 
-#page1{
-  background: url(../img/background_v2.jpg);
+#pagina1{
+  background: url(../img/Index/background_v2.jpg);
   background-repeat:no-repeat;
   /*background-position:center center;*/
   background-size:cover;
   background-attachment: fixed;  
 
 }
-#servicios, #ubicacion, #nosotros {
-  background: url(../img/background.jpg);
+#servicios, #ubicacion, #nosotros, #pruebas {
+  background: url(../img/General/background.jpg);
   background-repeat:no-repeat;
   /*background-position:center center; */
    background-attachment: fixed;
