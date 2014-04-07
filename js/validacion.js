@@ -93,6 +93,11 @@ function listaDeExamenes(paciente,nit)
         })
 }
 
+function abrirBoton()
+{
+    document.getElementById("botonexam").style.visibility="visible";
+}
+
 function ocultarBoton()
 {
     document.getElementById("botonexam").style.visibility="hidden";
