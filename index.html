@@ -53,6 +53,7 @@
         <div data-role="header">
         </div>
         <div data-role="content">
+            <a id="botonexam" style="visibility: hidden;" href="#examenespecifico" data-role="button" data-transition="pop" data-theme="b">Ir a Examen</a>
             <div id="result1" >
             </div>  
         </div>
@@ -113,6 +114,23 @@
                 <ul>
                     <li><a data-role="button" href="#buscador" data-ajax="false"><img src="img/Index/busca_ava.svg" height="50px" alt=""/></a></li>
                     <li><a href="#pagina1" data-role="button" data-transition="pop" data-theme="b" data-ajax="false"><img src="img/Index/inicioPPAL.svg" height="50px" alt="" style="text-align:left"/></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div data-role="page" data-theme="b" id="examenespecifico">
+        <div data-role="header">
+        </div>
+        <div data-role="content">
+            <div id="capa">
+                <embed src="" width="500" height="375">
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" data-fullscreen="true">
+            <div class="botonera" data-role="navbar">
+                <ul>
+                    <li><a href="#ingreso" data-role="button" data-transition="pop" data-theme="b"  onclick="ocultarBoton();" ><img src="img/Index/inicioPPAL.svg" height="50px" alt="" style="text-align:left"/></a></li>
                 </ul>
             </div>
         </div>

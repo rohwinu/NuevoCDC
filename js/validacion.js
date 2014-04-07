@@ -92,3 +92,8 @@ function listaDeExamenes(paciente,nit)
             }
         })
 }
+
+function ocultarBoton()
+{
+    document.getElementById("botonexam").style.visibility="hidden";
+}
