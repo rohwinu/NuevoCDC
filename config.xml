@@ -54,5 +54,4 @@
     <access origin="http://gatolocostudios.com/MobileCDC/*" />
     <access origin="http://cdc.gatolocostudios.com/VersionMobile/*" />
     <access origin="http://cdc.gatolocostudios.com/*" />
-    <access origin="http://cdc.gatolocostudios.com/panel/examenes/*" />
 </widget>
